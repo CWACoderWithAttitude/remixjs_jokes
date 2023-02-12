@@ -2,10 +2,10 @@ version: '3.7'
 
 services:
   devcontainer:
-    image: acme/orderservice-dev-container:0.1
+    image: javavolker/jokesservice-dev-container:0.1
     build: .
-    container_name: orderservice-dev-container
-    hostname: orderservice-dev.local
+    container_name: jokesservice-dev-container
+    hostname: jokesservice-dev.local
     working_dir: /src
     volumes:
        - ..:/src
